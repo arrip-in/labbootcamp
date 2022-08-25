@@ -13,3 +13,11 @@ Berikut langkah-langkah dalam melakukan passive reconnaissance pada yahoo.com
   6. selain dengan tools sodan kita juga menggunkan teknik google dork untuk mencari ekstensi terkait seperti PHP dan lainnya.<br> ![](/reccon/images/image9.png "google dork yahoo") <br>
 
 ## Active Reconnaissance
+Merupakan pencarian informasi sebanyak-banyaknya tentang target dengan mengakses target, sebagai contoh mencari port yang terbuka pada target, mencari direktori website dengan cara membruteforce, dan masih banyak lagi.<br>
+Berikut langkah-langkah dalam melakukan active reconnaissance pada yahoo.com<br>
+  1. Melakukan port scanning pada domain yahoo.com dengan menggunakan tools nmap. diperoleh beberapa port yang terbuka seperti gambar berikut: <br> ![](/reccon/images/image10.png "nmap Yahoo.com") <br>
+  2. selanjutnya kita mengidentifikasi teknologi website yang digunakan dengan bantuan tools wappalyzer yang merupakan add-on dari browser googlechrome. setelah dilakukan indentifikasi diperoleh informasi terkit teknologi yang digunakan yang dapat dilihat pada gambar dibawah ini.<br> ![](/reccon/images/image11.png "wappalyzer Yahoo.com") <br>
+  3. dirsearch dilakukan pada domain yahoo.com untuk mempeoleh informasi terkait direktori-direktori yang tersedia. <br> ![](/reccon/images/image12.png "dirsearch Yahoo.com") <br>
+  4. kemudian kita melakukan bruteforce dengan menggunkan tools arjun seperti gambar dibawah ini.<br> ![](/reccon/images/image13.png "arjun Yahoo.com") <br><br>
+
+Berikut yang dapat disampaikan contoh dari passive dan active reconnaissance.
